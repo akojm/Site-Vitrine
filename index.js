@@ -1,5 +1,4 @@
-  
-    /*animation scroll*/
+   /*animation scroll*/
 // Cibler mes éléments du DOM //
 var titre = document.querySelector('.titre-site');
 var slogan = document.querySelector('.slogan');
@@ -81,8 +80,6 @@ btnOpenMenuHamburger.addEventListener('click', ()=>{
     
 })
 
-
-
-
+ 
 
 
