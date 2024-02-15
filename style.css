@@ -708,7 +708,7 @@ div.overlay a{
     transform: translateY(0px) rotate(-135deg);
 }
 .showBurger{
-  transform: translateX(-100%);
+  transform: translateX(300px);
    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .showBurgerClosed{
@@ -730,9 +730,7 @@ div.nav-responsive{
     align-items: center;
     top: 40px;
     width: 100%;
-    z-index: 500;
-   
-    
+    z-index: 500;  
 }
 div.nav-responsive>.logo{
    width: 50px;
@@ -817,7 +815,7 @@ div.overlayHead{
     div.burger{
         position:absolute;
         top: 115px;
-        right: -50%;
+        right: -500px;
         font-family: secondary;
         font-weight: bolder;
         display: flex;
