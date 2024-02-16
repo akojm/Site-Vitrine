@@ -12,8 +12,7 @@ var btnOpenMenuHamburger = document.querySelector('.menu-items')
 var openMenuBurger = document.getElementById('burger-nav');
 var menuResp = document.querySelector('.menu-responsive') ;
 var overlayHead = document.querySelector('.overlayHead');
-var headerSite = document.querySelector('.header');
-console.log(overlayHead);
+
 
 
 //* Event Title & Slogan *//
@@ -65,20 +64,15 @@ arrow.addEventListener('click', ()=>{
  //**  Function **//
 
 hamburgerButton.addEventListener('click', ()=>{
-    hamburgerButton.classList.add('active')
+    //hamburgerButton.classList.toggle('active');
+    openMenuBurger.classList.toggle('showBurger');
+    btnOpenMenuHamburger.classList.toggle('active');
+    overlayHead.classList.add('showOverlayHead')
+
 })
 
-btnOpenMenuHamburger.addEventListener('click', ()=>{
-    if (openMenuBurger) {
-        openMenuBurger.classList.add('showBurger');
-        btnOpenMenuHamburger.classList.add('active');
-        headerSite.classList.add('showOverlayHead')
-    } else{
-        openMenuBurger.classList.add('showBurgerClosed');
- 
-    }
-    
-})
+
+
 
 
 
