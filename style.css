@@ -785,9 +785,13 @@ div.overlayHead{
     background-color:#12a0e7;
     /*background-color: rgba(10, 1, 1, 0.413);*/
     transition: .5s ease;
-    z-index: 400;
-    display: none;
+    z-index: 600;
+    visibility: hidden;
     }
+
+ .showOverlayHead{
+   visibility: visible;
+ }   
 /****** Nav Hamburger *****/
 
 
@@ -811,7 +815,7 @@ div.overlayHead{
         padding: 0;
        }    
     div.burger{
-        position:fixed;
+        position:absolute;
         top: 115px;
         right: -50%;
         font-family: secondary;
